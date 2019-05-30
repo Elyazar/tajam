@@ -1,0 +1,52 @@
+@font-face {
+font-family: 'Roboto Black';
+src: url('../fonts/Roboto-Black.eot');
+src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Roboto-Black.woff') format('woff'),
+url('../fonts/Roboto-Black.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display Black';
+  src: url('../fonts/PlayfairDisplay-Black.eot');
+  src: url('../fonts/PlayfairDisplay-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PlayfairDisplay-Black.woff') format('woff'),
+  url('../fonts/PlayfairDisplay-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url('../fonts/Roboto-Light.eot');
+  src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Roboto-Light.woff') format('woff'),
+  url('../fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+font-family: 'Playfair Display Regular';
+src: url('../fonts/PlayfairDisplay-Regular.eot');
+src: url('../fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
+url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@mixin roboto {
+  font-family: 'Roboto Black';
+}
+@mixin play-b {
+  font-family: 'Playfair Display Black';
+}
+@mixin roboto-l {
+  font-family: 'Roboto Light';
+}
+@mixin play-r {
+  font-family: 'Playfair Display Regular';
+}

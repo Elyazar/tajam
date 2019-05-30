@@ -1,0 +1,68 @@
+.navbar
+  width: 100%
+  &__wrap
+    position: absolute
+    z-index: 10
+    width: 940px
+    margin-top: 15px
+    display: flex
+    justify-content: space-between
+  &__menu
+    margin-top: 20px
+    &-link
+      color: #ffffff
+      text-decoration: none
+      font-size: 13px
+      text-transform: uppercase
+      +roboto
+      margin-right: 25px
+      &:last-child
+        margin-right: 0
+      &:hover
+        color: #02d9cb
+  &__hero
+    &-preview
+      margin: 0 auto
+      text-align: center
+    &-title
+      font-size: 32px
+      color: #ffffff
+      +play-b
+    &-line
+      width: 50px
+      height: 1px
+      margin: 25px auto
+    &-subtitle
+      font-size: 14px
+      color: #ffffff
+      +roboto-l
+      font-weight: 300
+      line-height: 24px
+      letter-spacing: 0.7px
+      margin-bottom: 50px
+.box
+  background: url(../img/carousel/carousel-img-1.png) no-repeat center
+  background-size: cover
+  width: 100%
+  height: 670px
+  padding-top: 230px
+  margin: 0
+@media (max-width: 1199px)
+  .navbar__wrap
+    max-width: 960px
+@media (max-width: 991px)
+  .navbar__wrap
+    max-width: 750px
+@media (max-width: 799px)
+  .navbar
+    &__menu
+      display: none
+    &__logo
+      margin: auto
+@media (max-width: 768px)
+  .box
+    width: 100%
+    padding-left: 20px
+    padding-right: 20px
+
+  
