@@ -1,0 +1,24 @@
+<div class="slider-slide">
+    <img src="img/carousel/carousel-img-1.png" alt="">
+    <span class="title slide__title">We Are Awesome Creative Agency</span>
+    <span class="slide__line"></span>
+    <p class="slide__paragraph">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+  </div>
+  <div class="slider-slide">
+    <img src="img/carousel/carousel-img-1.png" alt="">
+    <span class="title slide__title">We Are Awesome Creative Agency</span>
+    <span class="slide__line"></span>
+    <p class="slide__paragraph">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+  </div>
+  <div class="slider-slide">
+    <img src="img/carousel/carousel-img-1.png" alt="">
+    <span class="title slide__title">We Are Awesome Creative Agency</span>
+    <span class="slide__line"></span>
+    <p class="slide__paragraph">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+  </div>
+  <div class="slider-slide">
+    <img src="img/carousel/carousel-img-1.png" alt="">
+    <span class="title slide__title">We Are Awesome Creative Agency</span>
+    <span class="slide__line"></span>
+    <p class="slide__paragraph">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+  </div>
