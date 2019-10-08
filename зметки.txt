@@ -1,24 +1,11 @@
-<div class="slider-slide">
-    <img src="img/carousel/carousel-img-1.png" alt="">
-    <span class="title slide__title">We Are Awesome Creative Agency</span>
-    <span class="slide__line"></span>
-    <p class="slide__paragraph">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
-  </div>
-  <div class="slider-slide">
-    <img src="img/carousel/carousel-img-1.png" alt="">
-    <span class="title slide__title">We Are Awesome Creative Agency</span>
-    <span class="slide__line"></span>
-    <p class="slide__paragraph">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
-  </div>
-  <div class="slider-slide">
-    <img src="img/carousel/carousel-img-1.png" alt="">
-    <span class="title slide__title">We Are Awesome Creative Agency</span>
-    <span class="slide__line"></span>
-    <p class="slide__paragraph">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
-  </div>
-  <div class="slider-slide">
-    <img src="img/carousel/carousel-img-1.png" alt="">
-    <span class="title slide__title">We Are Awesome Creative Agency</span>
-    <span class="slide__line"></span>
-    <p class="slide__paragraph">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
-  </div>
+                                    !!!!!  SLICK памятка  !!!!!
+
+
+.slick-dots li.slick-active button:before -- -- настройка активной кнопки
+
+.slick-dots li button:before -- -- настройка не активной кнопки (общ размер, )
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before -- -- эффект при наведении на не активную кнопку
+
+.slick-dots -- -- настройка позиции

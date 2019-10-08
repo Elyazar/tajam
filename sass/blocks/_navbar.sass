@@ -1,16 +1,35 @@
-.header__nav
-  background-image: url (..\img\carousel\carousel-img-4.png)
+.img
+  position: relative
+.wrap__img,.img,.filter,.header__wrap
+  height: 100vh
+  width: 100%
+.filter
+  position: absolute
+  top: 0
+  left: 0
+  background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%)
+  opacity: 0.85
 .position__header
   display: flex
   justify-content: space-between
-.logo
-  margin-top: 15px
+  position: absolute
+  top: 15px
+  right: 0
+  left: 0
+  z-index: 2
+  width: 940px
+
+        /*--background--*/
+
+.menu__wrap
+  width: 525px
+  position: relative
 .menu
   position: absolute
+  z-index: 10
   display: flex
   justify-content: space-between
-  z-index: 10
-  top: 35px
+  top: 20px
   left: 0 
   right: 0 
   margin: auto
@@ -30,9 +49,7 @@
     &:hover
       color: #0abfba
 
-.menu__wrap
-  position: relative
-  width: 525px
+        /*--nav-menu--*/
 
 .menu__button
   top: 5%
@@ -101,30 +118,79 @@
 .menu__btn-active span:after
   transform: rotate(-135deg)
 
+        /*--menu-btn--*/
+
+.header__slider
+  position: absolute
+  top: -100vh
+
+        /*--slider--*/
+
+.slide
+  width: 100%
+  height: 100vh
+  outline: none
+  &__text
+    margin: 230px auto 0 auto
+    max-width: 770px
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__entrance
+    text-align: center
+    font-size: 32px
+    font-weight: 400
+    +play-b
+    color: #ffffff
+    margin-bottom: 20px
+  &__line
+    width: 50px
+    height: 1px
+    background-color: #00e0d0
+    margin-bottom: 30px
+  &__subtitle
+    text-align: center
+    +roboto-l
+    font-size: 14px
+    font-weight: 300
+    color: #ffffff
+    margin-bottom: 65px
+    letter-spacing: 0.5px
+    line-height: 24px
+
+        /*--slide--*/
+
 @media (max-width: 929px)
+  .menu
+    display: flex
+
+@media (max-width: 768px)
+  .container
+    padding: 0
+  .position__header
+    top: 0
+  .logo
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    top: 15px
+  .menu__btn
+    display: block
+    top: 15px
+
   .menu
     flex-direction: column
     text-align: center
-    left: 0
-    top: 0
     bottom: 0
-    max-width: 171px
-    margin: auto 0
-    height: 265px
-    z-index: 999
-
-@media (max-width: 768px)
-  .menu__btn
-    display: block
-  .menu
     left: 0
     top: 0
     margin: 0
     padding-top: 20%
+    padding-bottom: 25%
     max-width: 50%
     height: 100vh
     z-index: 999
-    background-color: rgba(8,196,189,.5)
+    background-color: #302850
 
     transform-origin: top left
     transform: scale(0) translateY(20%)
@@ -140,3 +206,30 @@
 @media (max-width: 320px)
   .menu
     max-width: 90%
+
+          /*--adaptive-menu-logo--*/
+
+           
+@media (max-width: 559px)
+  .slide
+    &__text
+      margin-top: 150px
+@media (max-width: 820px)
+  .slide
+    &__text
+      max-width: 670px
+      padding: 0 30px
+      margin-top: 180px
+    &__entrance
+      font-size: 22px
+      margin-bottom: 15px
+    &__line
+      margin-bottom: 15px
+    &__subtitle
+      font-size: 10px
+      margin-bottom: 45px
+      letter-spacing: 0.5px
+      line-height: 24px
+    &__button
+      padding: 10px
+      font-size: 10px
